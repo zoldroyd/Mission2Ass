@@ -5,7 +5,7 @@ using static System.Console;
 
 WriteLine("Welcome to the Dice Throwing Simulator!");
 
-diceSim SimDice = new diceSim();
+diceSim SimDice = new diceSim(); // instantiate an instance of the class
 
 int numRolls = 0; // create numRolls
 
