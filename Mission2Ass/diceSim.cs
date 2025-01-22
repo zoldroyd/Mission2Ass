@@ -1,8 +1,8 @@
 namespace Mission2Ass;
 using System;
-public static class diceSim // create a static class for the dice roll simulator
+public class diceSim // create a static class for the dice roll simulator
 {
-    public static int[] SimulateRolls(int numRolls) // method to simulate dice rolls
+    public int[] SimulateRolls(int numRolls) // method to simulate dice rolls
     {
         Random random = new Random(); // create a new instance of the Random class
 
